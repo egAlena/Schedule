@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Comic Sans MS Custom'; 
+  src: url('public/Comic Sans MS.ttf') format('truetype');
+}
+
 @media (max-width:430px) {
     body {
     background-color: #E0FBFF;
@@ -9,7 +14,7 @@
         text-align: center;
         font-size: 40px;
         margin: 30px auto;
-        font-family: Comic Sans MS;
+        font-family: 'Comic Sans MS Custom', Comic Sans MS, sans-serif;
         color: #032C7A;
     }
 
@@ -53,7 +58,7 @@
         color: #032C7A;
         height: 40px;
         font-size: 25px;
-        font-family: Comic Sans MS;
+        font-family: 'Comic Sans MS Custom', Comic Sans MS, sans-serif;
     }
 
     .names{
@@ -63,7 +68,7 @@
     table tbody{
         color: #032C7A;
         font-size: 12px;
-        font-family: Comic Sans MS;
+        font-family: 'Comic Sans MS Custom', Comic Sans MS, sans-serif;
     }
 
     table tbody tr th:first-child{
